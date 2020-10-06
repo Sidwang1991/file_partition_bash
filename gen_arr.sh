@@ -42,6 +42,7 @@ function get_partition(){
 	done
 }
 
+## any input
 partition_length=2000
 total_length=14345
 get_partition $partition_length $total_length
