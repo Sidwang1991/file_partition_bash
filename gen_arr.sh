@@ -19,6 +19,8 @@ function get_indicator(){
 		echo 0
 	fi
 }
+
+## specify the variables outside!
 partition_head_arr=()
 partition_length_arr=()
 function get_partition(){
