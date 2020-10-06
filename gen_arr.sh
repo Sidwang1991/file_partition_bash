@@ -10,6 +10,7 @@ function get_min(){
 	fi
 }
 
+## if greater than 0 then 1 else 0
 function get_indicator(){
 	local _num=$1
 	if (( $_num>0 )); then
