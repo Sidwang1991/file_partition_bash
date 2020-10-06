@@ -44,6 +44,7 @@ function get_partition(){
 	done
 }
 
+## final comment:
 ## any input
 partition_length=2000
 total_length=14345
