@@ -1,5 +1,7 @@
 #!/bin/bash
 ## complete revision
+
+## marked complete
 ## get min of two numbers
 function get_min(){
 	local _var1=$1
@@ -10,7 +12,8 @@ function get_min(){
 		echo $_var2
 	fi
 }
-
+## complete here too!
+## marked complete
 ## if greater than 0 then 1 else 0
 function get_indicator(){
 	local _num=$1
