@@ -1,5 +1,5 @@
 #!/bin/bash
-
+## get min of two numbers
 function get_min(){
 	local _var1=$1
 	local _var2=$2
