@@ -1,5 +1,5 @@
 #!/bin/bash
-
+## get min of two numbers
 function get_min(){
 	local _var1=$1
 	local _var2=$2
@@ -10,6 +10,7 @@ function get_min(){
 	fi
 }
 
+## if greater than 0 then 1 else 0
 function get_indicator(){
 	local _num=$1
 	if (( $_num>0 )); then
@@ -18,6 +19,8 @@ function get_indicator(){
 		echo 0
 	fi
 }
+
+## specify the variables outside!
 partition_head_arr=()
 partition_length_arr=()
 function get_partition(){
@@ -41,6 +44,8 @@ function get_partition(){
 	done
 }
 
+## final comment:
+## any input
 partition_length=2000
 total_length=14345
 get_partition $partition_length $total_length
